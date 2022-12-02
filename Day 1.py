@@ -1,4 +1,4 @@
-f = open("1.txt", "r")
+f = open("solution.txt", "r")
 sum=0;
 load=[]
 
@@ -12,3 +12,4 @@ print(max(load))
 
 load.sort(reverse=True)
 print(load[0]+load[1]+load[2])
+  
